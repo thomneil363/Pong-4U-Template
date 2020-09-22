@@ -45,13 +45,14 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.startLabel.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.startLabel.ForeColor = System.Drawing.Color.White;
-            this.startLabel.Location = new System.Drawing.Point(136, 225);
+            this.startLabel.Location = new System.Drawing.Point(72, 229);
             this.startLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.startLabel.Name = "startLabel";
-            this.startLabel.Size = new System.Drawing.Size(547, 114);
+            this.startLabel.Size = new System.Drawing.Size(672, 114);
             this.startLabel.TabIndex = 0;
-            this.startLabel.Text = "Press Space To Fight The AI";
+            this.startLabel.Text = "Use W + S or The Arrow Keys To Move. Press Space To Fight The AI";
             this.startLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.startLabel.Click += new System.EventHandler(this.StartLabel_Click);
             // 
             // Form1
             // 

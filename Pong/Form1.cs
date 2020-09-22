@@ -125,6 +125,11 @@ namespace Pong
             }
         }
 
+        private void StartLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
         /// <summary>
         /// sets the ball and paddle positions for game start
         /// </summary>
